@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  background: linear-gradient(pink, whitesmoke);
+  margin: auto;
+  width: 600px;
+  min-height: 500px;
+  padding: 20px;
+}
+
+.title {
+  margin: 0 0 20px 0;
+  padding: 0;
+  text-align: center;
+}
+
+form#shopping-form {
+  display: flex;
+  height: 50px;
+}
+
+form#shopping-form button {
+  padding: 5px 25px 15px 20px;
+}
+
+input#product-input {
+  width: 70%;
+  border:none;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+.clear {
+  text-align: center;
+}
+
+.clear a {
+  color: red;
+  text-decoration: none;
+}
+
+#products-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#products-list li {
+  padding: 10px 0 10px 0;
+  border-bottom: 1px dashed grey;
+}
+#submit-btn{
+  border: none;
+  background-color: white;
+  border: 5px solid pink;
+
+}
+.edit-product, .delete-product {
+  float: right;
+  cursor: pointer;
+}
+
+.edit-product {
+  margin-right: 10px;
+}
+
+#update-btn {
+  display: none;
+}
+
+.alert{
+  visibility: hidden;
+}
+
+.green {
+  border: solid 1px green;
+  background-color: lightgreen;
+  padding: 10px;
+  color: green;
+}
+
+.red {
+  border: solid 1px red;
+  background-color: salmon;
+  padding: 10px;
+  color: red;
+}
+.submit-btn{
+  width: 100px;
+}
+button#update-btn{
+  background-color: white;
+  border: none;
+  border:5px solid pink
+}
+p{
+  font-size: small;
+  color: white;
+}
+a{
+  background-color: rgb(192, 248, 247);
+}
+
+/* a#clear{
+  
+} */

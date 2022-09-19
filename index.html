@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Grocery List</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <main>
+    <h1 class="title"> Crocery List</h1>
+
+    <p class="alert">Some message</p>
+
+    <div class="row">
+      <form id="shopping-form" action="#">
+        <input type="text" name="item" id="product-input" />
+        <button type="button" id="submit-btn"><i id="icon" class="fas fa-plus-square"></i></button>
+        
+        <button type="button" id="update-btn">Update</button>
+
+        <input type="checkbox" id="deleted">
+        <label for="deleted"> <p> Show deleted</p>
+          </label>
+      </form>
+    </div>
+
+    <div class="row">
+      <ul id="products-list"></ul>
+
+      <p class="clear"><a href="#" id="clear">Clear products</a></p>
+    </div>
+  </main>
+
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
